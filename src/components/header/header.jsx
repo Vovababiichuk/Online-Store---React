@@ -12,11 +12,11 @@ function Header () {
                </div>
                <nav className="header__nav">
                   <ul>
-                     <li><a href="#!">CATALOGUE</a></li>
-                     <li><a href="#!">FASHION</a></li>
-                     <li><a href="#!">FAVOURITE</a></li>
-                     <li><a href="#!">LIFESTYLE</a></li>
-                     <li><a href="#!" className="header__nav-btn">SIGN UP</a></li>
+                     <li><a className="header__nav-link" href="#!">CATALOGUE</a></li>
+                     <li><a className="header__nav-link" href="#!">FASHION</a></li>
+                     <li><a className="header__nav-link" href="#!">FAVOURITE</a></li>
+                     <li><a className="header__nav-link" href="#!">LIFESTYLE</a></li>
+                     <button href="#!" className="header__nav-btn">SIGN UP</button>
                   </ul>
                </nav>
             </div>

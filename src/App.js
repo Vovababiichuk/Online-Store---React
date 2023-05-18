@@ -2,6 +2,7 @@ import Arrivals from './components/arrivals/Arrivals';
 import Brands from './components/brands/Brands';
 import Header from './components/header/header';
 import Promo from './components/promo/Promo';
+import Sale from './components/sale/Sale';
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Promo />
       <Brands />
-      <Arrivals />    
+      <Arrivals />
+      <Sale />    
     </div>
   );
 }

@@ -1,6 +1,5 @@
 .arrivals {
    padding-top: 120px;
-   padding-bottom: 143px;
 }
 
 .arrivals__header {
@@ -9,7 +8,7 @@
 
 .arrivals__cards {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 
 .title-2 {

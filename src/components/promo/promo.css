@@ -49,8 +49,16 @@
    padding: 18px 40px;
    color: #fff;
    border-radius: 10px;
-   background: #000000;
+   background: var(--primary-color);
+   transition: background-color 0.3s, color 0.3s;
 }
+
+.promo__btn:hover {
+   background-color: #fff;
+   color: #000;
+   outline: 2px solid black;
+}
+
 
 .highlight {
    position: relative;

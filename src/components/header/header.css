@@ -43,11 +43,24 @@
 .header__nav-btn:last-of-type {
    padding: 13px 22px 17px;
    background-color: var(--primary-color);
-   border-radius: 7px;
+   border-radius: 10px;
 
    font-weight: 500;
    font-size: 24px;
    line-height: 1.5;
    letter-spacing: -0.03em;
    color: #fff;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+.header__nav-btn:last-of-type:hover {
+   background-color: #fff;
+   color: #000;
+   outline: 2px solid black;
+}
+
+.header__nav-link:hover {
+   color: #ff0000;
+   border-bottom: 2px solid #ff0000;
+   transition: color 0.3s, border-bottom-color 0.3s;
 }
