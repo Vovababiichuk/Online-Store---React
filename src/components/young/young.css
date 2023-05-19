@@ -1,0 +1,8 @@
+.young__title {
+   margin-bottom: 120px;
+}
+
+.young__cards {
+   display: flex;
+   justify-content: space-between;
+}
