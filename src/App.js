@@ -1,6 +1,8 @@
+import React from 'react';
 import Arrivals from './components/arrivals/Arrivals';
 import Brands from './components/brands/Brands';
-import Header from './components/header/header';
+import Community from './components/community/Community';
+import Header from './components/header/Header';
 import Load from './components/load/Load';
 import Promo from './components/promo/Promo';
 import Sale from './components/sale/Sale';
@@ -17,10 +19,9 @@ function App() {
       <Sale />  
       <Young /> 
       <Load /> 
+      <Community />
     </div>
   );
 }
-
-<header />
 
 export default App;
