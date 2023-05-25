@@ -7,6 +7,7 @@ import Load from './components/load/Load';
 import Promo from './components/promo/Promo';
 import Sale from './components/sale/Sale';
 import Young from './components/young/Young';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -16,10 +17,11 @@ function App() {
       <Promo />
       <Brands />
       <Arrivals />
-      <Sale />  
-      <Young /> 
-      <Load /> 
+      <Sale />
+      <Young />
+      <Load />
       <Community />
+      <Footer />
     </div>
   );
 }

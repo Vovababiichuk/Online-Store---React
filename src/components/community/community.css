@@ -27,7 +27,8 @@
 
 .community__form {
    position: relative;
-   display: inline;
+   display: inline-block;
+   padding-bottom: 140px;
 }
 
 .community__input {
@@ -61,7 +62,7 @@
 .community__button {
    content: '';
    position: absolute;
-   top: -24px;
+   top: 11px;
    left: 401px;
    width: 161px;
    height: 67px;
@@ -73,4 +74,11 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #FFFFFF;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+.community__button:hover {
+   background-color: #fff;
+   color: #000;
+   outline: 2px solid black;
 }
